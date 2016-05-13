@@ -1,3 +1,9 @@
+$black: #000000;
+$darkBrown: #7C7670;
+$lightTan: #FFF1E5;
+$sand: #F7EFDE;
+$brown: #BAAEA7;
+
 nav {
   width: 100%;
   display: flex;
@@ -5,9 +11,13 @@ nav {
   margin-top: 2rem;
   margin-bottom: 4rem;
   a {
+    margin: .5rem;
     text-decoration: none;
+    color: $brown;
     &:hover {
       text-decoration: line-through;
+      color: $darkBrown;
+      border-radius: 15%;
     }
   }
   h3 {

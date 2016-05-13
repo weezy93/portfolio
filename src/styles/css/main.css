@@ -5,9 +5,13 @@ nav {
   margin-top: 2rem;
   margin-bottom: 4rem; }
   nav a {
-    text-decoration: none; }
+    margin: .5rem;
+    text-decoration: none;
+    color: #BAAEA7; }
     nav a:hover {
-      text-decoration: line-through; }
+      text-decoration: line-through;
+      color: #7C7670;
+      border-radius: 15%; }
   nav h3 {
     width: 60%;
     margin: auto;
