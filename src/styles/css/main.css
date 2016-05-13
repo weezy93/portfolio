@@ -32,5 +32,13 @@ nav {
     nav ul li {
       margin-bottom: .5rem; } }
 
+form {
+  width: 100%;
+  display: flex;
+  flex-flow: column; }
+  form h5 {
+    width: 80%;
+    margin: auto; }
+
 html {
   font-size: 14px; }
