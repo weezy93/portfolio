@@ -16,6 +16,10 @@
         url: '/about-me',
         templateUrl: 'partials/aboutMe.html'
       })
+      .state('resume', {
+        url: '/resume',
+        templateUrl: 'partials/resume.html'
+      })
       .state('contact', {
         url: '/contact',
         templateUrl: 'partials/contact.html'
