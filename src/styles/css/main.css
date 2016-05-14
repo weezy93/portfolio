@@ -35,10 +35,26 @@ nav {
 form {
   width: 100%;
   display: flex;
-  flex-flow: column; }
+  flex-flow: column;
+  text-align: center;
+  color: #393633; }
   form h5 {
-    width: 80%;
-    margin: auto; }
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #393633;
+    font-weight: bold; }
+  form input, form textarea {
+    text-align: center;
+    color: #393633; }
+  form input#message-button.button {
+    width: 40%;
+    margin: auto;
+    background-color: #BAAEA7;
+    color: #000000; }
+    form input#message-button.button:hover {
+      background-color: #7C7670; }
 
 html {
   font-size: 14px; }

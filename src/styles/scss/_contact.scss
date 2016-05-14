@@ -1,9 +1,34 @@
+$black: #000000;
+$darkBrown: #7C7670;
+$lightTan: #FFF1E5;
+$sand: #F7EFDE;
+$brown: #BAAEA7;
+
 form {
   width: 100%;
   display: flex;
   flex-flow: column;
+  text-align: center;
+  color: darken($darkBrown, 25%);
   h5 {
-    width: 80%;
+    width: 50%;
     margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: darken($darkBrown, 25%);
+    font-weight: bold;
+  }
+  input, textarea {
+    text-align: center;
+    color: darken($darkBrown, 25%);
+  }
+  input#message-button.button {
+    width: 40%;
+    margin: auto;
+    background-color: $brown;
+    color: $black;
+    &:hover {
+      background-color: $darkBrown;
+    }
   }
 }
